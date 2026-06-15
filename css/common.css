@@ -1,0 +1,103 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* ===== BODY ===== */
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    color: #000;
+    line-height: 1.5;
+}
+
+/* ===== LINKS ===== */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ===== LIST ===== */
+ul {
+    list-style: none;
+}
+
+/* ===== IMAGE ===== */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* ===== BUTTON GLOBAL ===== */
+button {
+    cursor: pointer;
+    border: none;
+    transition: 0.3s ease;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+    width: 90%;
+    max-width: 1240px;
+    margin: auto;
+}
+
+/* ===== FLEX UTILITIES ===== */
+.flex {
+    display: flex;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ===== TEXT ===== */
+.text-center {
+    text-align: center;
+}
+
+/* ===== SECTION SPACING ===== */
+section {
+    width: 100%;
+}
+
+/* ===== COMMON BUTTON STYLE ===== */
+.btn {
+    padding: 12px 40px;
+    border-radius: 30px;
+    background: #000;
+    color: #fff;
+}
+
+.btn:hover {
+    background: #333;
+}
+
+/* ===== INPUT GLOBAL ===== */
+input {
+    outline: none;
+    border: none;
+}
+
+/* ===== RESPONSIVE HELP ===== */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .flex {
+        flex-wrap: wrap;
+    }
+}
