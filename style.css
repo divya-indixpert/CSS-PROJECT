@@ -583,6 +583,12 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid rgb(193, 189, 189);
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+    padding: 30px;
+
 }
 
 .swiper-slide img{
